@@ -1,0 +1,397 @@
+@font-face {
+    font-family: doclap;
+    src: url(/codes/fonts/INDEPENDENCE.OTF);
+}
+@font-face {
+    font-family: oldFalcons;
+    src: url(/codes/fonts/1314\ The\ Old\ Falcons.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.landing {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.bg {
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+    height: auto;
+    margin-top: -40%;
+}
+.header h1 {
+    font-family: 'doclap';
+    text-align: center;
+    color:white;
+    font-size: 10em;
+}
+.text {
+    width: 100%;
+    height: auto;
+    margin-top: -60%;
+    margin-left: 60px;
+    color: white;
+    font-family: 'oldFalcons';
+    font-size: 50px;
+}
+#behind {
+    z-index: 2;
+    text-align: right;
+    margin-right: 100px;
+    padding-right: 100px;
+    transform: translateY(200px);
+}
+.car {
+    position: relative;
+    left: 45vw;
+    top: 70%;
+    z-index: 100;
+}
+.car:hover {
+    animation-name: movingcar;
+    animation-duration: 3s;
+}
+@keyframes movingcar {
+    100% {transform: translate(-99vw, 20vh)}
+}
+.car img {
+    width: 50%;
+    height: auto;
+}
+.gradient {
+    z-index: 1;
+    width: 100%;
+    height: 1024px;
+    background-image: linear-gradient(#3D444B 30%, #5593DE);
+}
+#mountain {
+    z-index: 2;
+    margin-top: 20vh;
+    transform: rotateZ(15deg) translate(-80px, -50px);
+    display:inline-block;
+    width: 100%;
+}
+#car2 {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: -55vw;
+    left: 20vw;
+}
+#car2:hover {
+    animation-name: driving;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes driving {
+    50% {transform: translateY(30px);}
+    75% {transform: translateX(10px);}
+}
+#verse1 {
+    position:relative;
+    top: -50vw;
+    left: 60px;
+}
+.gradient2 {
+    width: 100%;
+    height: 2048px;
+    background-image: linear-gradient(#5593DE, #4F87D6 10%, #CCB67C 40%, #4F87D6 30%);
+}
+.eye {
+    width: 50vw;
+    transform: translate(50vh, 10vw);
+    margin-left: 5vw;
+    z-index: 5;
+}
+#v2s1 {
+    margin-left: 10vw;
+    position:relative;
+    top: -40vw;
+}
+#grass {
+    transform: translateY(-650px);
+    z-index: 2;
+    margin-bottom: 0;
+}
+#v2s1 {
+    position:relative;
+    top: -80vw
+}
+.eye {
+    position:relative;
+    top:-70vw;
+    left:-40px;
+}
+.road {
+    width: 80%;
+    position: relative;
+    top: -65%;
+    left: 12%;
+}
+.gradient3 {
+    width: 100%;
+    height: 1024px;
+    background-image: linear-gradient(#24292F 50%, #3A5882, #4F87D6);
+}
+#v2s2 {
+    position: relative;
+    top:-90%;
+    transform: rotateZ(-68deg)
+}
+#v2s2-2 {
+    position: relative;
+    top:-5%;
+    padding: 40%;
+    transform: rotateZ(68deg)
+}
+#stars {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+#mountain2 {
+    z-index: 1;
+    margin-top: 20vh;
+    position:relative;
+    top:-50%;
+    left:-20px;
+    transform: rotateZ(8deg);
+    width: 105%;
+}
+#v2s3 {
+    padding-top: 200px;
+    padding-left: 60px;
+}
+#mountain3 {
+    z-index: 1;
+    transform: rotateZ(8deg);
+    position:relative;
+    left:-20px;
+    top:150px;
+    width: 105%;
+}
+#v2s4 {
+    z-index: 100;
+    text-align: right;
+    position:absolute;
+    right: 50px;
+    transform: translateY(300px);
+}
+.bird {
+    z-index: 3;
+    width: 20%;
+    float: right;
+    position:relative;
+    top:-50%;
+    right: 50px;
+}
+.bird:hover {
+    animation-name: fly;
+    animation-duration: 3s;
+}
+@keyframes fly {
+    100% {transform: translate(-99vw, -80vh);}
+}
+.bg3 {
+    z-index: 1;
+    background-color: #222B31;
+    height: 2600px;
+}
+.gradient4 {
+    z-index: 2;
+    background-image: linear-gradient(#4084D2, #252A30);
+    width: 50%;
+    height: 40vh;
+    margin-top: 40%;
+    position:absolute;
+    right:0;
+}
+.hair {
+    margin-right:0;
+    margin-left: 50px;
+}
+.gradient5 {
+    background-image: linear-gradient(#4084D2, #252A30);
+    width: 30%;
+    height: 40vh;
+    margin-top: 70%;
+    margin-left:50px;
+    position:absolute;
+    left:80px;
+}
+#v4s1 {
+    margin-left: -45%;
+    transform: translateY(60px);
+}
+#v4s2 {
+    margin-top: 55%;
+}
+#line {
+    display:block;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+.smoke {
+    z-index: 2;
+    width: 200%;
+    margin-top: -40vw;
+    opacity: 0%;
+}
+.smoke:hover {
+    animation-name: smoke;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes smoke {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.hand {
+    width: 80%;
+    float: right;
+    margin-top:-10%;
+}
+#v4s3 {
+    display: inline-block;
+    margin-top:-20%;
+    transform: translateX(400px);
+}
+#v4s4 {
+    display:inline-block;
+    text-align: right;
+    position: relative;
+    left:100px;
+    top:50px;
+}
+.gradient6 {
+    z-index: 2;
+    background-image: linear-gradient(#4084D2, #252A30);
+    width: 70%;
+    height: 50%;
+    margin-top: 80%;
+    position:absolute;
+    left:0;
+    transform: translateY(800px);
+}
+.laugh {
+    width: 100px;
+    float: right;
+    position: relative;
+    top: -650px;
+    right: 400px;
+    animation-name: laughing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0.37, 0.13, 0.96);
+}
+@keyframes laughing {
+    50% {transform: translateX(20px) translateY(50px) rotate(-3deg)}
+}
+.gradient7 {
+    z-index: 1;
+    background-image: linear-gradient(#252A30 50%,#4084D2);
+    width: 100%;
+    height: 1024px;
+}
+.cloud {
+    width: 80%;
+    position: relative;
+    left: 15%;
+    top:20%;
+}
+#v5s1 {
+    text-align: center;
+    z-index: 3;
+    position:relative;
+    top: 50%;
+}
+.rain {
+    width: 60%;
+    position:relative;
+    top: 75%;
+    left: 25%;
+    animation-name: rain;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rain {
+    50% {transform: translateY(100px);}
+}
+#v5s2 {
+    text-align: center;
+    z-index: 3;
+    position:relative;
+    top: 80%;
+    transform: translateY(300px);
+}
+.gradient8 {
+    background-image: linear-gradient(#4084D2, #FDE38C);
+    height: 1217px;
+    width: 100%;
+    position: absolute;
+}
+#v5s3-1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+    transform: rotateZ(10deg);
+}
+#v5s3-2 {
+    margin-top: -10%;
+    text-align: right;
+    transform: rotateZ(-10deg) translateX(-150px);
+}
+.rope {
+    margin-top:-80%;
+}
+.shirt {
+    z-index: 2;
+    position: relative;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+.shirt:hover {
+    animation-name: blow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes blow {
+    50% {transform: rotateZ(5deg) scale(105%);}
+}
+#mountain4 {
+    z-index: 1;
+    width: 120%;
+    transform: rotateZ(10deg);
+    margin-left: -25px;
+    position: relative;
+    top: 25%;
+}
+#v5s3-3 {
+    z-index: 3;
+    text-align: center;
+    position: relative;
+    margin-top: 30%;
+}
+.end {
+    background-color: #252A30;
+    width: 100%;
+    height:100vh;
+    margin-top:-250px;
+}
